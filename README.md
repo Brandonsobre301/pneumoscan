@@ -1,4 +1,4 @@
-# PneumoScan — AI Pneumonia Detection
+# PneumoScan: AI Pneumonia Detection
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)
