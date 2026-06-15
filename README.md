@@ -86,13 +86,13 @@ pneumoscan/
 
 ## Getting Started
 
-### 1 — Install Python dependencies
+### 1. Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2 — Train the model
+### 2. Train the model
 
 Point `DATA_ROOT` in `train.py` to your dataset, then run:
 
@@ -102,7 +102,7 @@ python train.py
 
 This saves `resnet18_pneumonia.pth` to the project root (excluded from git — generate locally).
 
-### 3 — Start the API
+### 3. Start the API
 
 ```bash
 cd backend
@@ -111,7 +111,7 @@ python -m uvicorn main:app --reload
 # Docs at http://localhost:8000/docs
 ```
 
-### 4 — Start the frontend
+### 4. Start the frontend
 
 ```bash
 cd frontend
